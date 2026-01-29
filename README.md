@@ -3,7 +3,7 @@
 This is a simple static website project created as part of my early learning journey in frontend development (around 2020).
 
 ## 🌐 Live Website
-https://USERNAME.github.io/REPO-NAME/
+[Visit Aeri's Travel!](https://suciramfau.github.io/aeris-s_travel_learning_project_2020/)
 
 ## 📄 Pages
 - Homepage
@@ -26,3 +26,6 @@ https://USERNAME.github.io/REPO-NAME/
 
 ## 📝 Notes
 This project is intended for learning and portfolio purposes.
+
+[My Dashboard Portfolio](https://www.notion.so/Suci-Ramadhani-Fauzi-Dashboard-2d22490fec64804ca096d8f4cee4c7ac)
+
