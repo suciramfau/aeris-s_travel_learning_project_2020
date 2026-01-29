@@ -1,0 +1,483 @@
+body {
+  background-color: white;
+  font-family: 'Assistant', sans-serif;
+  color: #000000;
+}
+
+.navbar-brand img {
+  max-height: 42px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #AC3939;
+  font-size: 20px !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #AC3939 !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+}
+
+.btn-login {
+  background-color: #AC3939;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-login:hover {
+  background-color: #cac712;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+header {
+  padding: 120px 0 160px;
+  margin-top: -70px;
+  background-image: url(../Images/Background.jpg);
+  background-size: cover;
+}
+
+header h1, header p {
+  color: #000000;
+}
+
+header h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+header p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+header .btn-get-started {
+  background-color: #FFF200;
+  color: #000000;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+header .btn-get-started:hover {
+  background-color: #fdb008;
+  color: #000000;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.section-popular {
+  min-height: 530px;
+  background-color: #F3EFE3;
+  margin-top: 0px;
+  margin-bottom: -200px;
+}
+
+.section-popular-heading {
+  margin-top: 30px;
+}
+
+.section-popular-heading h2, .section-popular-heading p {
+  color: #000000;
+}
+
+.section-popular-heading h2 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular-heading p {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.section-popular-content {
+  margin-top: -375px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 400px;
+  background-color: black;
+  color: #ffffff;
+  padding: 10px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .travel-button .btn-travel-details {
+  font-weight: bold;
+  font-size: 22px;
+  background-color: #FFF200;
+  color: #000000;
+}
+
+.section-popular-content .travel-button .btn-travel-details:hover {
+  background-color: #fdb008;
+  color: #000000;
+}
+
+.section-networks {
+  background-color: white;
+  margin-top: -180px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000000;
+}
+
+.section-networks p {
+  font-weight: 500;
+  font-size: 22px;
+  color: #000000;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonial {
+  background-color: #4D4D4D;
+  padding-top: 50px;
+  min-height: 600px;
+}
+
+.section-testimonial h2 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.section-testimonial p {
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+}
+
+.section-testimonial-content {
+  margin-top: -425px;
+  padding-bottom: 50px;
+}
+
+.card-testimonial {
+  padding: 50px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.card-testimonial .testimonial-content {
+  min-height: 370px;
+}
+
+.card-testimonial h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card-testimonial .testimonial {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.card-testimonial .trip-to {
+  font-weight: 30px;
+  font-weight: bold;
+  color: #8b8a8a;
+}
+
+.card-testimonial hr {
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.btn-need-help {
+  background-color: #f5f2ad;
+  color: #8b8a8a;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.btn-need-help:hover {
+  background-color: #f0e96e;
+  color: #000000;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.btn-get-started {
+  background-color: #FFF200;
+  color: #000000;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.btn-get-started:hover {
+  background-color: #fdb008;
+  color: #000000;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.section-footer a {
+  color: #8b8a8a;
+}
+
+.section-detail-header {
+  min-height: 250px;
+  background: #DCFCFD;
+  margin-top: -70px;
+}
+
+.section-detail-content {
+  margin-top: -150px;
+  min-height: 100vh;
+  font-size: 20px;
+}
+
+.section-detail-content .breadcrumb {
+  background-color: transparent;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.section-detail-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #000000;
+}
+
+.card-details {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.card-details h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-details h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-details p {
+  font-size: 18px;
+}
+
+.card-details .disclaimer {
+  font-weight: 500;
+  color: grey;
+  font-size: 18px;
+}
+
+.card-details h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.card-details .gj-datepicker .datepicker {
+  border-right: 0px;
+}
+
+.card-details .gj-datepicker .input-grup-append .btn {
+  padding-right: 30px;
+}
+
+.card-details .btn-add-now {
+  background-color: #AC3939;
+  color: white;
+}
+
+.card-details .btn-add-now:hover {
+  background-color: #c56060;
+  color: white;
+}
+
+.features {
+  margin-top: 15px;
+}
+
+.features h3 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.features p {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.description {
+  margin-left: 5px;
+  overflow: hidden;
+  float: left;
+}
+
+.features-image {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.gallery .xzoom-container {
+  display: block;
+}
+
+.gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 15px;
+}
+
+.gallery .xzoom-container .xactive {
+  border: 4px solid #1ABC9C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.card-details-information {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.card-details-information h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-details-information h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-details-information p {
+  font-size: 18px;
+}
+
+.card-details-information .text-blue {
+  color: #17347c;
+  font-weight: bold;
+}
+
+.card-details-information .text-red {
+  color: #F90404;
+  font-weight: bold;
+}
+
+.card-details-information .bank .bank-item h3 {
+  font-weight: bold;
+  font-size: 16;
+  margin-bottom: 0;
+}
+
+.card-details-information .bank .bank-item p {
+  font-weight: 500;
+  font-size: 18;
+  margin-bottom: 0px;
+}
+
+.card-details-information .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.card-details-information .bank .bank-image {
+  float: left;
+  margin-top: 10px;
+}
+
+.payment-instruction {
+  font-weight: 500;
+  font-size: 21;
+  color: #C4C4C4;
+}
+
+.card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+
+.members .member-image {
+  width: 45px;
+  height: 45px;
+}
+
+.join-container {
+  margin-top: -20px;
+}
+
+.btn-join-now {
+  background-color: #FFF200;
+  color: #000000;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.btn-join-now:hover {
+  background-color: #fdb000;
+  color: #000000;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.section-success {
+  margin-top: -150px;
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 20px;
+  color: #414141;
+}
+
+.section-success .btn-homepage {
+  border-radius: 8px;
+  background-color: #FFF200;
+  -webkit-columns: black;
+          columns: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section-success .btn-homepage:hover {
+  border-radius: 10px;
+  background-color: #fdb008;
+  -webkit-columns: black;
+          columns: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
