@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeri's Travel-Homepage</title>
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="Frontend/Library/Bootstrap/css/bootstrap.css">
+    
+    <!--Font Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS kita buat -->
+    <link rel="stylesheet" href="Frontend/Style/main.css">
+</head>
+
+<body>
+    
+    <!-- Navigation Section -->
+    <div class="container">
+        <nav class=" row navbar navbar-expand-lg navbar-light" style="background-color:white;">
+
+        <!--Navbar Brand dengan link atau dengan anchor (a)-->
+        <a href="index.html" class="navbar-brand">
+            <img src="Frontend/Images/Bismillah-Logo-2x.png" alt="Logo Aeri's Travel">
+        </a>
+        
+        <!--Tag button ini diperuntukan jika pada divices yang kecil diakan collapse dan terletak 
+        pada button garis tiga-->
+        <button class="navbar-toggler navbar-toggler-right"
+        type="button"
+        data-toggle="collapse"
+        data-target="#buttonnavbar"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Menu -->
+        <!-- tag id yang terdapat pada div kelas dibawah ini merupakan pembeda dengan div sebelumnya
+        , dimana id tersebut nantinya diisi dengan data-target diatas -->
+        <div class="collapse navbar-collapse" id="buttonnavbar">
+            <ul class="navbar-nav ml-auto mr-3">
+                <li class="nav-item mx-md-2">
+                    <a href="#" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item mx-md-2">
+                    <a href="#" class="nav-link">Travel Package</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" 
+                    id="navbardrop"
+                    data-toggle="dropdown"
+                    >
+                        Services
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Passport</a>
+                        <a href="#" class="dropdown-item">Visa</a>
+                    </div>
+                </li>
+                <li class="nav-item mx-md-2">
+                    <a href="#" class="nav-link">Testimonial</a>
+                </li>
+            </ul>
+
+            <!--Mobile Button Sign In-->
+            <form class="form-inline d-sm-block d-md-none">
+                <button class="btn btn-login my-2 my-sm-0 px-4">
+                    Sign In
+                </button>
+            </form>
+
+            <!--Desktop Button Sign In-->
+            <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                    Sign In
+                </button>
+            </form>
+
+        </div>
+
+        </nav>
+    </div>
+
+    <!-- Header Section -->
+    <header class="text-center">
+        <div class="container">
+              <h1>
+                    LET'S IMAGINE AND MAKE 
+                    <br>
+                    BEST TRIP EVER
+                </h1>
+            
+                <p class="mt-3">
+                    Don't think too much and get serious when you join in this tour. Get unusual experience 
+                    <br>
+                    that you never meet in another travel (Maybe ?). Hope you like and enjoy it!!
+                </p>
+            
+                <a href="#" class="btn btn-get-started px-4 mt-4">
+                    Get Started!
+                </a>   
+        </div>
+    </header>
+
+    <main>
+        <!-- Section popular -->
+        <section class="section-popular" id="popular">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center section-popular-heading">
+                        <h2>
+                            Famous Destination
+                        </h2>
+                        <p>
+                            From unimportant until the most unimportant places and things that serious people thinking about. Let's come and see.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Popular Content (City) -->
+        <section class="section-popular-content" id="Popular Content">
+            <div class="container">
+                <div class="section-popular-travel row justify-content-center">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column" style="background-image: url('frontend/images/city1.jpg');">
+                            <div class="travel-button mt-auto">
+                                <a href="#" class="btn btn-travel-details">
+                                    What a Life City
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column" style="background-image: url('frontend/images/city2.jpg');">
+                            <div class="travel-button mt-auto">
+                                <a href="Candy-City-Detail-Page.html" class="btn btn-travel-details">
+                                    Candy City
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column" style="background-image: url('frontend/images/city3.jpg');">
+                            <div class="travel-button mt-auto">
+                                <a href="#" class="btn btn-travel-details">
+                                    Power City
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column" style="background-image: url('frontend/images/city4.jpg');">
+                            <div class="travel-button mt-auto">
+                                <a href="#" class="btn btn-travel-details">
+                                    Sing For U City
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <!-- Section Networks -->
+        <section class="section-networks" id="networks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>
+                            NETWORKS
+                        </h2>
+                        <P>
+                            This trip was supported by
+                        </P>
+                    </div>
+                    <div class="col-md-8 text-center">
+                        <img src="Frontend/Images/Partner.png" alt="logo partner" class="img-partner">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Testimonial -->
+        <section class="section-testimonial" id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h2>
+                            From They're Who Love Me Right (?)
+                        </h2>
+                        <p>
+                            Moment were giving them the best experiences
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Testimonial Content -->
+        <section class="section section-testimonial-content" id="testimonial-content">
+            <div class="container">
+                <div class="section-popular-travel row justify-content-center">
+                    <!-- Kolom Testimoni 1 -->
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="card card-testimonial text-center">
+                            <div class="testimonial-content">
+                                <img src="frontend/Images/Testimoni.jpg" alt="Foto Testimonial"
+                                class="mb-4 rounded-circle">
+                                
+                                <h3 class="mb-4">
+                                    ~ Suci ~
+                                </h3>
+
+                                <p class="testimonial">
+                                    Young people
+                                    in there have a life motto’s 
+                                    “I work to play
+                                    I work as if I’m playing, 
+                                    what about you?”
+                                </p>
+                            </div>
+
+                            <hr>
+                            <p class="trip-to mt-2">
+                                Trip to What a Life City, Exo's Planet
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- Kolom Testimoni 2 -->
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="card card-testimonial text-center">
+                            <div class="testimonial-content">
+                                <img src="frontend/Images/Testimoni.jpg" alt="Foto Testimonial"
+                                class="mb-4 rounded-circle">
+                                
+                                <h3 class="mb-4">
+                                    ~ Ramadhani ~
+                                </h3>
+
+                                <p class="testimonial">
+                                    “After going to Candy City, Got me feelin' like Pop Rock, Strawberry, Bubblegum”
+                                </p>
+                            </div>
+
+                            <hr>
+                            <p class="trip-to mt-2">
+                                Trip to Candy City, Exo's Planet
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- Kolom Testimoni 3 -->
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="card card-testimonial text-center">
+                            <div class="testimonial-content">
+                                <img src="frontend/Images/Testimoni.jpg" alt="Foto Testimonial"
+                                class="mb-4 rounded-circle">
+                                
+                                <h3 class="mb-4">
+                                    ~ Fauzi ~
+                                </h3>
+
+                                <p class="testimonial">
+                                    “From this trip we got that power~~power”
+                                </p>
+                            </div>
+
+                            <hr>
+                            <p class="trip-to mt-2">
+                                Trip to Power City, Exo's Planet
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Buat button -->
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="" class="btn btn-need-help px-4 mt-4 mx-1">
+                            I Need Help
+                        </a>
+                        <a href="" class="btn btn-get-started px-4 mt-4 mx-1">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <!-- Features -->
+                        <div class="col-12 col-lg-3">
+                            <h5>
+                                FEATURES
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Review</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Community</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Social Media Kit</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Affiliate</a>
+                                    </li>
+                                </ul>
+                            </h5>
+                        </div>
+                        <!-- Account -->
+                        <div class="col-12 col-lg-3">
+                            <h5>
+                                ACCOUNT
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Refund</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Security</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Reward</a>
+                                    </li>
+                                </ul>
+                            </h5>
+                        </div>
+                        <!-- Company -->
+                        <div class="col-12 col-lg-3">
+                            <h5>
+                                COMPANY
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Carrier</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Help Center</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Media</a>
+                                    </li>
+                                </ul>
+                            </h5>
+                        </div>
+                        <!-- Get Connected -->
+                        <div class="col-12 col-lg-3">
+                            <h5>
+                                GET CONNECTED
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Somewhere on the earth</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">xxx-xxxx-xxx</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Aeri's Travel@yayaya.com</a>
+                                    </li>
+                                </ul>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center pt-4">
+                <div class="col-auto text-grey-500 font-weight-light">
+                    2020 Copyright Aeri's Travel - All Right Reserved - Made in Somewhere on The Earth By Suci Ramadhani Fauzi
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Frontend/Library/JQuery/jquery-3.5.1.min.js"></script>
+    <script src="Frontend/Library/Bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeri's Travel-Candy City Success Checkout</title>
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="Frontend/Library/Bootstrap/css/bootstrap.css">
+    
+    <!-- XZoom -->
+    <link rel="stylesheet" href="Frontend/Library/XZoom/xzoom.css">
+
+    <!-- Gijgo -->
+    <link rel="stylesheet" href="Frontend/library/Gijgo/css/gijgo.min.css">
+
+    <!--Font Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS kita buat -->
+    <link rel="stylesheet" href="Frontend/Style/main.css">
+</head>
+
+<body>
+    
+    <!-- Navigation Section -->
+    <div class="container">
+        <nav class=" row navbar navbar-expand-lg navbar-light" style="background-color:white;">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+                <a href="#" class="navbar-brand">
+                    <img src="frontend/Images/Bismillah Logo.png" alt="Logo">
+                </a>
+            </div>
+            
+            <!-- untuk tulisan disamping logo, d-none d-lg-block, dimaksudkan pada selain ukuran lg dia tidak tampak -->
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+            <!-- text-muted membuat text keabu-abuan, (| & nbsp;) untuk membuat spasi -->
+                <li>
+                    <span class="text-muted">
+                        | &nbsp; Don't Get Serious, 
+                        <br>
+                        | &nbsp; This is just imaginary tour
+                    </span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main -->
+    <section class="section-detail-header">
+    </section>
+
+    <main>
+        <div class="section-success d-flex align-items-center">
+            <div class="col text-center">
+                <img height="350" widht="350" src="frontend/Images/Success.png" alt="">
+                <h1>
+                    CONGRATULATION FOR 
+                    <br/> YOUR SUCCESS TRANSACTION
+                </h1>
+                <p>
+                    Can't believe that you will join our tour has scheduled. We've send you 
+                    <br/> an email for trip instruction, please read it as well ^^
+                </p>
+                <a href="index.html" class="btn btn-homepage mt-3 px-4">
+                    Back to Homepage
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <!-- Features -->
+                        <div class="col-12 col-lg-3">
+                            <h5>
+                                FEATURES
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Review</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Community</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Social Media Kit</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Affiliate</a>
+                                    </li>
+                                </ul>
+                            </h5>
+                        </div>
+                        <!-- Account -->
+                        <div class="col-12 col-lg-3">
+                            <h5>
+                                ACCOUNT
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Refund</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Security</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Reward</a>
+                                    </li>
+                                </ul>
+                            </h5>
+                        </div>
+                        <!-- Company -->
+                        <div class="col-12 col-lg-3">
+                            <h5>
+                                COMPANY
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Carrier</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Help Center</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Media</a>
+                                    </li>
+                                </ul>
+                            </h5>
+                        </div>
+                        <!-- Get Connected -->
+                        <div class="col-12 col-lg-3">
+                            <h5>
+                                GET CONNECTED
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">Somewhere on the earth</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">xxx-xxxx-xxx</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Aeri's Travel@yayaya.com</a>
+                                    </li>
+                                </ul>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center pt-4">
+                <div class="col-auto text-grey-500 font-weight-light">
+                    2020 Copyright Aeri's Travel - All Right Reserved - Made in Somewhere on The Earth By Suci Ramadhani Fauzi
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Frontend/Library/JQuery/jquery-3.5.1.min.js"></script>
+    <script src="Frontend/Library/Bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/Library/Retina/retina.min.js"></script>
+    <script src="frontend/Library/XZoom/xzoom.min.js"></script>
+    <script src="frontend/library/Gijgo/js/gijgo.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth:550,
+                title: false,
+                tint: '#333',
+                Xoffset:15,
+            });
+
+            $('.datepicker').datepicker({
+                uilibrary: 'bootstrap4',
+                icons: {
+                    righticons:'<img=src"frontend/images/icon-date.png"/>'
+                }
+            })
+        });
+    </script>
+</body>
+</html>
